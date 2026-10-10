@@ -1,0 +1,36 @@
+gitignore
+# Локальные настройки
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+pycache/
+
+# PyInstaller и результаты сборки
+/build/work/
+/dist/
+/compiled/
+
+# Секреты и сертификаты
+*.pfx
+*.p12
+*.key
+*.pem
+
+# Базы данных и логи
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# Локальная конфигурация
+config.ini
